@@ -2,6 +2,13 @@
 
 A comprehensive help desk ticketing system built with NestJS, TypeScript, and PostgreSQL. This system provides role-based access control for managing technical support tickets with clients, technicians, and administrators.
 
+## 🚀 Live Deployment
+
+The API is deployed and available at: **https://techhelpdesk-production.up.railway.app/**
+
+- API Documentation (Swagger): https://techhelpdesk-production.up.railway.app/api
+- Base URL for requests: https://techhelpdesk-production.up.railway.app
+
 ## Description
 
 RESTful API for managing technical support tickets with authentication, authorization, and comprehensive business logic for ticket lifecycle management.
