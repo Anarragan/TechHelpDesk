@@ -13,6 +13,12 @@ import {
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   
+  // Enable CORS
+  app.enableCors({
+    origin: ['http://localhost:5173', 'http://localhost:3001'],
+    credentials: true,
+  });
+  
   // Apply exception filters globally (order matters: specific to general)
   app.useGlobalFilters(
     new BusinessExceptionFilter(),
